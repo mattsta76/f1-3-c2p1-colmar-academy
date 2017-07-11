@@ -1,0 +1,619 @@
+html{
+  font-size: 16px;
+}
+
+/* header  and Navigation style */
+header{
+  width: 1024px;
+  height: 4rem;
+  z-index: 100;
+  background-color: white;
+  position: relative;
+
+}
+
+header .content{
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+header nav ul {
+  display: flex;
+
+}
+
+header .logo{
+  flex: 1;
+}
+
+nav li{
+  padding-left: 1rem;
+}
+
+
+img{
+  padding-left: 1.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+
+.logo{
+  align-items: center;
+  display: flex;
+  margin-right:2rem;
+
+}
+.logo .company {
+  font-size: 1.75rem;
+padding-left: 1rem;
+}
+
+.content .company {
+  margin-right: 3.5rem;
+}
+
+.desktop{
+  font-size: 1.75rem;
+  font-family: "Roboto", Helvetica;
+}
+
+/* End of header and Navigation style */
+
+/* style of banner section */
+#banner {
+  background-color: rgb(216,216,216);
+
+}
+
+.flex-content {
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem ;
+  padding: 0 1.5rem;
+
+}
+
+
+#banner .main-content {
+  border-right: 0;
+  padding: 2rem 0;
+  padding-right: 4.5rem;
+  width: 60%;
+}
+
+#banner .supporting-content {
+  justify-content: center;
+  margin-top: 8rem;
+  padding: 1rem 1rem;
+  padding: 0 3.5rem;
+  width: 40%;
+}
+
+
+#banner h3 {
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+#banner p {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#banner a {
+  padding: .75rem 5.5rem;
+  background-color: rgb(155,155,155);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* end of banner styling */
+
+/* start of mobile device styling header */
+@media only screen and (max-width: 770px) {
+
+
+#banner {
+    flex-direction: column;
+    padding: 0;
+  }
+
+#banner .main-content {
+    width: auto;
+    height: 180px;
+    background-color: rgb(164,166,168);
+    padding: 0;
+  }
+
+  #banner .main-content img {
+    display: none;
+  }
+
+#banner .supporting-content {
+    width: auto;
+    padding: 2rem 1rem;
+  }
+
+
+
+.supporting-content h3 {
+  padding-left: 1rem;
+}
+
+.supporting-content p {
+  padding-left: 1rem;
+}
+
+  .logo {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+.mobile ul  {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+  .main-info {
+    display: none;
+  }
+
+  .side-container .side-menu{
+    display: none;
+  }
+
+  .side-container .side-menu1 {
+    display: none;
+  }
+
+  .mobile-course {
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .orientation img,
+  .campus img,
+  .guest img
+   {
+    width: 92%;
+  }
+
+  .orientation h3,
+  .campus h3,
+  .guest h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+  }
+
+  .orientation p,
+  .campus p,
+  .guest p
+  {
+    font-size: 1rem;
+    padding-top: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    color: gray;
+  }
+
+  .orientation a,
+  .campus a,
+  .guest a
+  {
+    font-family: "Roboto",sans-serif;
+    padding-left: 2.5rem;
+  }
+
+  .course1,
+  .course2,
+  .course3,
+  .course4,
+  .course5,
+  .course6
+   {
+    background-color: rgb(225,225,225);
+    height: 70px;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+.course-container .box1,
+.course-container .box2,
+.course-container .box3,
+.course-container .box4,
+.course-container .box5,
+.course-container .box6
+{
+  display: none;
+}
+
+.course1,
+.course2,
+.course3,
+.course4,
+.course5,
+.course6
+ {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem 0;
+  padding-left: 1rem;
+}
+
+
+.flex-container .side-container1 {
+  display: none;
+}
+
+.Reimagine video {
+  width: 710px;
+}
+
+.bottom-nav {
+  display: none;
+}
+
+.content p {
+  text-align: center;
+}
+
+}
+
+/* Main info styling */
+
+.flex-container {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+}
+
+
+.main-info {
+  margin: 0 1.5rem;
+  width: 60%;
+}
+
+
+.main-info h2 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  padding-left: 1.5rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.main-info p {
+  margin: 1.5rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+
+}
+
+span {
+  font-size: 1rem;
+  padding-left: 1.5rem;
+}
+
+
+.side-container {
+  display: block;
+  width:423px;
+  height: auto;
+  border-left: 1px solid rgb(216,216,216);
+
+}
+
+.side-menu img {
+  width: 35%;
+  padding-left: 1rem;
+
+}
+
+.side-menu1 img {
+  width: 35%;
+  padding-left: 1rem;
+}
+
+.side-menu {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0 1rem;
+  border-bottom: 1px solid rgb(216,216,216);
+
+}
+
+.side-menu1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216,216,216);
+}
+
+.side-menu {
+  margin-bottom: 1rem;
+}
+
+.side-menu-content {
+  padding: 0 1rem;
+}
+
+.side-menu-content h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.side-menu-content p {
+  padding: 0.5rem 0;
+}
+
+
+/* Start learning styling */
+
+
+.start-learning-container {
+  background-color:rgb(216,216,216);
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.start-learning-container h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.course-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.course-content {
+  background-color: #ffffff;
+  height: 220px;
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+.box1{
+  height: 350px;
+  width: 320px;
+}
+
+
+.box2{
+  height: 350px;
+  width: 320px;
+}
+
+.box3{
+  height: 350px;
+    width: 320px;
+}
+
+.box4 {
+  height: 350px;
+    width: 320px;
+}
+
+.box5 {
+  height: 350px;
+    width: 320px;
+}
+
+.box6 {
+  height: 350px;
+    width: 320px;
+}
+
+.course-content h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.course-content  h3 {
+  font-family: "Roboto", sans-serif;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: gray;
+}
+
+.course-content p {
+  font-family: "Roboto", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  color: gray;
+  padding-bottom: 1.5rem;
+}
+
+
+/* end of course content styling */
+
+/* start of Thesis-section styling */
+
+.flex-container {
+  background-color: rgb(240,240,240);
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 0;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.Thesis-section {
+  width: 100%;
+  height: auto;
+}
+
+.Thesis-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Roboto",sans-serif;
+  padding: 2rem 0;
+  background-color: rgb(240,240,240);
+}
+
+
+video {
+  margin-top: 2rem;
+  width: 630px;
+  height: auto;
+  margin-left: 1.5rem;
+}
+
+
+.side {
+  display:inline-flex;
+  align-items: center;
+  background-color: rgb(216,216,216);
+
+}
+
+.side img {
+  width: 35%;
+  height: 35%;
+}
+
+.side1 img {
+  width: 35%;
+  height: 35%;
+
+}
+
+.side1 {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.side-container1 {
+  display:block;
+  flex-direction: row;
+  width: 423px;
+  padding-top: 2rem;
+
+}
+
+.Reimagine {
+  width: 630px;
+  margin-right: 1.5rem;
+
+}
+
+.Reimagine h2 {
+  margin-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 1.5rem;
+
+}
+
+.Reimagine p {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.fisma-content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.fisma-content p {
+  padding-left: 1rem;
+
+}
+
+.now-content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.now-content p {
+    padding-left: 1rem;
+}
+
+/* End of Thesis-section styling */
+
+/*start of footer styling */
+
+footer .content {
+  background-color: rgb(240,240,240);
+  display: flex;
+  align-items: center;
+}
+
+
+
+.content {
+  padding: 2rem 0;
+  padding-left: 1.5rem;
+  color: gray;
+
+}
+
+.content p {
+  width: 100%;
+}
+
+
+.bottom-nav {
+  width: 100%;
+}
+
+.bottom-nav ul {
+  display: flex;
+  float: right;
+  padding-right: 0.5rem;
+
+}
